@@ -371,7 +371,7 @@ class Toast extends Component {
       <Animated.View
         onLayout={this.onLayout}
         style={[baseStyle, style]}
-        {...this.panResponder.panHandlers}>
+        >
         {this.renderContent(this.props)}
       </Animated.View>
     );
